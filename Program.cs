@@ -7,7 +7,7 @@ namespace SudokuGenerator
     {
         static void Main(string[] args)
         {
-            Console.WindowWidth = Console.LargestWindowWidth / 2;
+            Console.WindowWidth = Console.LargestWindowWidth - 20;
             Console.WindowHeight = Console.LargestWindowHeight - 10;
             var sw = new Stopwatch();
             Console.Write("Sudoku tablosunun kenar uzunluğunu girin (table length): ");
